@@ -1,0 +1,20 @@
+[project]
+name = "msxfilter"
+version = "0.1.0"
+description = "Minimal MSX-inspired filter toolkit"
+authors = [{name = "MSX Filter Toolkit"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "diffusers",
+    "Pillow",
+    "numpy",
+]
+
+[project.scripts]
+msxfilter = "msxfilter.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
