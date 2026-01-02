@@ -1,0 +1,6 @@
+# Core runtime dependencies for the MSX filter toolkit and sample scripts
+# These mirror the pyproject.toml entries under msxfilter/.
+torch
+diffusers
+Pillow
+numpy
