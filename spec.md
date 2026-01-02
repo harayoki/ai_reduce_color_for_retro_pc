@@ -30,10 +30,9 @@ msxfilter/
       rules.py         # 評価（Lab/パレット/tile proxy）
       io.py            # 画像・パレットI/O
       ui.py            # Gradio用（後で）
-  examples/
-    palettes/
-      msx16.txt
-      msx92.txt
+  palettes/
+    msx16.txt
+    msx95.txt
 ```
 
 ---
